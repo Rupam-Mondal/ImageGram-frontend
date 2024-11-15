@@ -1,1 +1,1 @@
-export const baseurl = import.meta.env.VITE_BASE_URL;
+export const baseurl = 'https://social-gram-1.onrender.com';
