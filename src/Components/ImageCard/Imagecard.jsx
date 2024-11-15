@@ -26,9 +26,7 @@ function Imagecard({ caption, Image, userId, postId, refetch }) {
         <div className="relative w-full h-auto border border-gray-700 flex flex-col px-8 py-4 bg-black shadow-lg space-y-4">
             {/* Update and Delete Icons */}
             <div className="absolute top-4 right-4 flex space-x-4">
-                <button className="text-gray-500 hover:text-gray-300 transition duration-200">
-                    <FiEdit className="text-lg" title="Update" />
-                </button>
+                
                 <button
                     className="text-gray-500 hover:text-gray-300 transition duration-200"
                     onClick={deleteHandler}
